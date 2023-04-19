@@ -16,6 +16,7 @@ let
     # Development
     #cargo
     #rustc
+    lua
   ];
   shell_hook_script = "\n";
 in pkgs.mkShell {
